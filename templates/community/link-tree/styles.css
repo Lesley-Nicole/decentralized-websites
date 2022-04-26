@@ -1,0 +1,115 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 50px; /* some padding */
+    text-align: center; /* center the text */
+    margin: 10px;
+    letter-spacing: 1.5px
+  }
+  
+  /* Increase the font size of the <h1> element */
+  .header h1 {
+    font-size: 6vw;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 4px;
+    border-radius: 2px;
+  }
+
+  .header, p {
+      font-size: 3.5vw
+  }
+
+  /* Style the top navigation bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-left: 20px;
+    margin-right: 20px 
+  }
+
+  .navbar a {
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+    font-size: 3vw;
+    margin-top: 1%;
+    margin-left: 18%;
+    margin-right: 18%;
+    box-shadow: 3px 3px 3px rgb(65, 65, 65);
+    border-radius: 20px;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
+
+  h2 {
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+
+  form {
+      text-align: center;
+      margin-left: 16%;
+      margin-right: 16%;
+      margin-top: 10%;
+      border-radius: 2px;
+      padding: 10px;
+      letter-spacing: 1px;
+  }
+
+  form h2 {
+      margin: 10px;
+      padding: 10px;
+  }
+
+  input {
+      padding: 10px;
+      font-size: 2.5vw;
+      width: 100%;
+      border-radius: 4px;
+  }
+
+  button {
+      padding: 10px;
+      font-size: 2.5vw;
+      width: 100%;
+      border-radius: 4px;
+      box-shadow: 3px 3px 3px rgb(95, 109, 122);
+      margin-top: 2%;
+      letter-spacing: 1px;
+  }
+
+  footer {
+      text-align: center;
+      border: none;
+  }
+
+  @media screen and (max-width: 400px) {
+      .navbar {
+          width: 100%
+      }
+    .navbar a {
+      width: 100%
+    }
+    header {
+        width: 100%
+    }
+    form {
+        width: 100%
+    }
+    footer {
+        width: 100%
+    }
+  }
